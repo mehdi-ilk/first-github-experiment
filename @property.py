@@ -22,7 +22,7 @@ human = cel(37)
 print(human.temperature)'''
 
 
-class Student:
+class Students1:
     def __init__(self, name, mark):
         self.name = name
         self.mark = mark
@@ -40,7 +40,7 @@ class Student:
         self.mark = mark
 
 
-st = Student("jacki", "25")
+st = Students1("jacki", "25")
 print(st.gotmarks)
 st.gotmarks = "ali  easily high foc fight 34"
 print(st.gotmarks)
