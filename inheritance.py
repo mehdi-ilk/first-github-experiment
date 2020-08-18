@@ -1,4 +1,4 @@
-'''class Polygon:
+'''class Polygon1:
     def __init__(self, no_of_sides):
         self.n = no_of_sides
         self.sides = []
@@ -14,7 +14,7 @@
             print("Side", i+1, "is", self.sides[i])
 
 
-class Triangle(Polygon):
+class Triangle(Polygon1):
     def __init__(self):
         super().__init__(3)
 
